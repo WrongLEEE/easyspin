@@ -1,0 +1,10 @@
+Sys.g=2.0026
+Sys.Nucs='1H,1H,1H,1H';
+Sys.A =[15.1,14, 11.1, 5.40];
+Sys.lwpp=[0.13,0.1]
+Exp.Temperature=293
+Exp.ModAmp=0.1
+Exp.mwFreq=9.8574
+Exp.Range=[346.8, 356.7951]
+To obtain the spectrum with Easyspin, one just needs to run the following command:
+[b,spec]=garlic(Sys,Exp);
